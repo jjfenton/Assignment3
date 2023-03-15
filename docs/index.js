@@ -1,3 +1,5 @@
+document.getElementById("quoteButton").addEventListener("click", randomAlerts);
+
 function randomAlerts() {
     var quote = new Array (
     "Whoa! -- Keanu Reeves",
