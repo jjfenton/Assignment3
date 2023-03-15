@@ -1,5 +1,5 @@
 function randomAlerts() {
-    var msg = new Array (
+    var quote = new Array (
     "Whoa! -- Keanu Reeves",
     "Believe you can and you're halfway there. -- Teddy Roosevelt",
     "I'm not here to be perfect. I'm here to be real. -- Lady Gaga",
@@ -11,6 +11,6 @@ function randomAlerts() {
     "Always forgive your enemies; nothing annoys them so much. -- Oscar Wilde",
     "Never go to bed mad. Stay up and fight. -- Phyllis Diller");
     
-    let i = Math.floor(Math.random()*msg.length);
-    window.alert(msg[i]);
+    let i = Math.floor(Math.random()*quote.length);
+    window.alert(quote[i]);
 }
