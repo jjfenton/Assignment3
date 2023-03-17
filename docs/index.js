@@ -1,7 +1,7 @@
 document.getElementById("quoteButton").addEventListener("click", randomAlerts);
 
 function randomAlerts() {
-    var quote = new Array (
+    const quote = new Array (
     "Whoa! -- Keanu Reeves",
     "Believe you can and you're halfway there. -- Teddy Roosevelt",
     "I'm not here to be perfect. I'm here to be real. -- Lady Gaga",
